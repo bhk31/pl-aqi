@@ -1,0 +1,26 @@
+.city_card_container {
+  width: 20%;
+  padding: 1%;
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 3% 0;
+  background: bisque;
+  cursor: pointer;
+}
+
+.guage_container {
+  padding: 1%;
+}
+
+.city_card_container:hover {
+  box-shadow: 5px 5px;
+}
+
+.category,
+.aqi {
+  font-size: x-large;
+}
+
+.aqi {
+  margin: auto;
+}
