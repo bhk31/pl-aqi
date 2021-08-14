@@ -39,7 +39,6 @@ const formatData = (prevData, currentData) => {
   let tempData = {};
 
   currentData.forEach((city) => {
-    console.log(city);
     let oldTime = new Date();
     if (prevData[city.city]) {
       oldTime = prevData[city.city].timeDiff;
