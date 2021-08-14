@@ -6,11 +6,6 @@ import socket from './data/socket';
 import { formatData } from './utils/utils';
 import Loading from './components/Loading/Loading';
 
-const container = {
-  width: '80%',
-  marginLeft: '10%',
-};
-
 function App() {
   const [barGraphView, setBarGraphView] = useState(false);
   const [cityData, setCityData] = useState([]);
@@ -52,7 +47,7 @@ function App() {
       {isLoading ? (
         <Loading />
       ) : (
-        <div style={container}>
+        <div className='container'>
           {barGraphView ? (
             <BarGraph cityData={cityData} selectedCity={selectedCity} />
           ) : (

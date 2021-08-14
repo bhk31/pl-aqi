@@ -24,3 +24,23 @@
 .aqi {
   margin: auto;
 }
+
+@media only screen and (max-width: 1024px) {
+  .city_card_container {
+    width: 40%;
+  }
+
+  .btn {
+    padding: 1%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .city_card_container {
+    width: 100%;
+  }
+
+  .btn {
+    padding: 2%;
+  }
+}

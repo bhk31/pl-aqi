@@ -37,9 +37,26 @@
   }
 }
 
+.container {
+  width: 80%;
+  margin-left: 10%;
+}
+
 .btn {
   padding: 0.5%;
   background: bisque;
   border-radius: 5px;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  .btn {
+    padding: 1%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .btn {
+    padding: 2%;
+  }
 }
