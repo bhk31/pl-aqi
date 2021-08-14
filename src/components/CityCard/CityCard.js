@@ -5,7 +5,6 @@ import { getAqiCategory } from '../../utils/utils';
 
 function CityCard({ aqi, city, handleLoadCityGraph }) {
   const aqiCategory = getAqiCategory(aqi);
-  console.log(`The AQI of the ${city} is ${aqi} `);
 
   return (
     <div

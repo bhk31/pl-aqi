@@ -5,7 +5,6 @@ const getLabels = (selectedCity, cityData) => {
 const getBarGraphDataSet = (selectedCity, cityData) => {
   const barGraphData = [];
   Object.keys(cityData).map((city) => {
-    console.log(`The AQI of the ${city} is ${cityData[city].aqi} `);
     if (city === selectedCity) {
       return barGraphData.push(cityData[city].aqi);
     } else {
